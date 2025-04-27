@@ -1,0 +1,36 @@
+
+.training   {
+    max-width: 100%;
+    
+    border-bottom: 12px solid white;
+  }
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 32px 0;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    
+    &-title{
+
+    }    
+  
+    &-image{
+        width: 100%;
+    }
+    &-item{
+        flex: 1;
+        padding: 0 32px;
+
+        &-description{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+    }
+    h4{ margin: 0; font-weight: 500;}
+    h3{ margin: 0; font-weight: 500;}
+    h2{ margin: 0; font-weight: 500;}
+}

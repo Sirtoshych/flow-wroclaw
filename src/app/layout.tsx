@@ -28,6 +28,25 @@ export default function RootLayout({
                     <Navigation />
                 </div>
                 {children}
+                <div className={styles.footer}>
+                    <Navigation />
+                    <div className={styles.social}>
+                        <a href="https://www.facebook.com/flow.ultimate.wroclaw/">
+                            <img
+                                src="/facebook.png"
+                                alt="Facebook"
+                                style={{ width: "32px", height: "32px" }}
+                            />
+                        </a>
+                        <a href="https://www.facebook.com/flow.ultimate.wroclaw/">
+                            <img
+                                src="/instagram.png"
+                                alt="Imstagram"
+                                style={{ width: "32px", height: "32px" }}
+                            />
+                        </a>
+                    </div>
+                </div>
             </body>
         </html>
     );
