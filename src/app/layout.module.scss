@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    max-width: 100vw;
+    width: 100%;
+    flex: 1;
+    top: 16px;
+    padding: 16px 0;
+    // background-color: rgba(255, 255, 255, 0.5);
+    height: 120px;
+    background-color: #204794;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    
+    .navigation{
+      justify-self: flex-end;
+    }
+  }
+  
+  .body{
+
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    max-width: 250px;
+  }
+  
