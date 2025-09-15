@@ -11,6 +11,10 @@
   max-width: 100%;
   
   border-bottom: 12px solid white;
+
+  @media (max-width: 767px) {
+    margin-top: 182px;
+  }
 }
 .name{
   position: absolute;
@@ -20,6 +24,14 @@
   text-align: center;
   font-size: 148px;
   font-weight: 700;
+
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+/* text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  @media (max-width: 767px) {
+    font-size: 64px;
+    bottom: 140px;
+  }
+
 }
 .achievements{
   display: flex;
@@ -29,5 +41,7 @@
   justify-content: center;
   position: absolute;
   bottom: 32px;
-  /* background-image: url("/grass.png"); */
+  @media (max-width: 767px) {
+    bottom: 16px;
+  }
 }

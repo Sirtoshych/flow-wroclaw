@@ -34,20 +34,6 @@ export const Schedule = () => {
                     location="Pola Marsowe"
                     time="10:00"
                 />
-                <Event
-                    date="5 May"
-                    type="Training"
-                    name="Training"
-                    location="Pola Marsowe"
-                    time="10:00"
-                />
-                <Event
-                    date="5 May"
-                    type="Training"
-                    name="Training"
-                    location="Pola Marsowe"
-                    time="10:00"
-                />
             </div>
         </div>
     );

@@ -3,7 +3,10 @@
     max-width: 100%;
     
     border-bottom: 12px solid white;
+    @media (max-width: 767px) {
+        margin-top: 182px;
   }
+}
 .content{
     display: flex;
     flex-direction: column;
@@ -12,7 +15,9 @@
 .location{
     display: flex;
     flex-direction: row;
-    
+    @media (max-width: 767px) {        
+        flex-direction: column;
+    }
     &-title{
 
     }    

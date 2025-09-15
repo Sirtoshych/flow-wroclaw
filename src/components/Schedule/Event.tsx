@@ -17,8 +17,7 @@ export const Event = ({
         <div className={styles.event}>
             <div className={styles["event-date"]}>
                 <span className={styles["event-date-day"]}>
-                    {date}
-                    {time}
+                    {date} {time}
                 </span>
             </div>
             <div className={styles["event-info"]}>

@@ -18,17 +18,20 @@
     .navigation{
       justify-self: flex-end;
     }
-  }
+    @media (max-width: 767px) {
+      justify-content: center;
+    }
+}
   
-  .body{
+.body{
 
-    display: flex;
-    flex-direction: column;
-  }
-  .image{
-    max-width: 250px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+}
+.image{
+  max-width: 250px;
+}
+
 .footer{
   background-color: #204794;
   width: 100%;
