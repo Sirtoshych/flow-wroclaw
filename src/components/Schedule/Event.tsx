@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import styles from "./Event.module.scss";
 
 export const Event = ({
@@ -10,7 +11,7 @@ export const Event = ({
     date: string;
     type: string;
     name: string;
-    location: string;
+    location: ReactNode;
     time: string;
 }) => {
     return (
@@ -21,8 +22,8 @@ export const Event = ({
                 </span>
             </div>
             <div className={styles["event-info"]}>
-                <span className={styles["event-info-time"]}>{location}</span>
                 <span className={styles["event-info-title"]}>{name}</span>
+                <span className={styles["event-info-time"]}>{location}</span>
             </div>
         </div>
     );

@@ -4,5 +4,15 @@
     align-items: center;
     justify-content: center;
     margin-top: 32px;
+    padding: 16px;
+
+    iframe{
+        width: 800px;
+        
+        min-height: 500px;
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
 }
 

@@ -19,7 +19,9 @@
       justify-self: flex-end;
     }
     @media (max-width: 767px) {
+      margin-top: 12px;
       justify-content: center;
+       flex-direction: column;
     }
 }
   

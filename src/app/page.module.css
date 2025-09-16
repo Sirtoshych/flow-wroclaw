@@ -13,7 +13,7 @@
   border-bottom: 12px solid white;
 
   @media (max-width: 767px) {
-    margin-top: 182px;
+    margin-top: 230px;
   }
 }
 .name{
