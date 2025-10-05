@@ -7,7 +7,7 @@ const nextConfig = {
   // assetPrefix: isProd ? '/flow-wroclaw.gihtub.io/' : '',
   // basePath: isProd ? '/flow-wroclaw.gihtub.io' : '',
   output: 'export',
-  distDir: '_next',
+  // distDir: '_next',
 };
 
 export default nextConfig;
