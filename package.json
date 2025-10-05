@@ -9,9 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "export": "next export",
-    "deploy": "gh-pages -d out --dotfiles"
+    "predeploy": "npm run build && touch ./out/.nojekyll",
+    "deploy": "gh-pages -d out -t true --dotfiles"
   },
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.2.5",
