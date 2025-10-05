@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: 'sirtoshych.gihtub.io',
-  basePath: 'sirtoshych.gihtub.io',
+  assetPrefix: 'https://sirtoshych.gihtub.io',
+  basePath: 'https://sirtoshych.gihtub.io',
   output: 'export',
   // distDir: '_next',
 };
