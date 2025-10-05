@@ -16,7 +16,7 @@ export default function Home() {
                     alt="Logo 2"
                     className={styles.team}
                 />
-                <div className={styles.name}>K.S. Flow Wrocław</div>
+                <div className={styles.name}>K.S. !!Flow Wrocław</div>
                 <div className={styles.achievements}>
                     <InfoBlock
                         label={
