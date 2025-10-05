@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  // assetPrefix: isProd ? '/flow-wroclaw.gihtub.io/' : '',
-  // basePath: isProd ? '/flow-wroclaw.gihtub.io' : '',
+  assetPrefix: 'sirtoshych.gihtub.io',
+  basePath: 'sirtoshych.gihtub.io',
   output: 'export',
   // distDir: '_next',
 };
