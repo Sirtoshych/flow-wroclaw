@@ -1,4 +1,3 @@
-import { Button } from "../Button/Button";
 import { Link } from "../Link/Link";
 import styles from "./Navigation.module.scss";
 

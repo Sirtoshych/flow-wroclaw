@@ -3,7 +3,6 @@ import styles from "./Event.module.scss";
 
 export const Event = ({
     date,
-    type,
     name,
     location,
     time,

@@ -44,6 +44,7 @@ export const Schedule = () => {
             <div className={styles.events}>
                 {getNextFourMondaysOrWednesdays().map((el) => (
                     <Event
+                        key={el}
                         date={el}
                         type="Training"
                         name="Open Training"

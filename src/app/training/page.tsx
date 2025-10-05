@@ -39,7 +39,7 @@ export default function Training() {
                         <div className={styles["location-item-description"]}>
                             <h3>
                                 <a href="https://maps.app.goo.gl/Rcvfutqn4Hu7TTya6">
-                                    Stadion Sportowy "Oławka", Na Niskich Łąkach
+                                    Stadion Sportowy Oławka, Na Niskich Łąkach
                                     8,
                                 </a>
                             </h3>

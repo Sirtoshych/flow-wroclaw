@@ -1,7 +1,6 @@
 import * as React from "react";
 
 import styles from "./page.module.css";
-import { Navigation } from "@/components/Navigation/Navigation";
 
 import { InfoBlock } from "@/components/InfoBlock/InfoBlock";
 import { News } from "@/components/News/News";
