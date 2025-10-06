@@ -11,12 +11,12 @@ export default function Home() {
     return (
         <main>
             <div className={styles.content}>
-                {/* <img
+                <img
                     src={"/team_white.jpg"}
                     alt="Logo 2"
                     className={styles.team}
-                /> */}
-                <div className={styles.name}>K.S. !!Flow Wrocław</div>
+                />
+                <div className={styles.name}>K.S. Flow Wrocław</div>
                 <div className={styles.achievements}>
                     <InfoBlock
                         label={
