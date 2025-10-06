@@ -6,7 +6,6 @@
 }
 
 .news-wrapper{
-    background-color: white;
     border-radius: 16px;
     padding: 16px;
     display: flex;
@@ -27,6 +26,8 @@
     @media (max-width: 767px) {
         flex-direction: column;
     }
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .news-item{
@@ -37,6 +38,7 @@
 .iframe{
     flex: 1;
     min-height: 500px;
+    
 }
 .news-item-title{
     h3{ margin: 0;}

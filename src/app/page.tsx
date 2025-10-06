@@ -9,31 +9,29 @@ import { Video } from "@/components/Video/Video";
 
 export default function Home() {
     return (
-        <main>
-            <div className={styles.content}>
-                <img
-                    src={"/team_white.jpg"}
-                    alt="Logo 2"
-                    className={styles.team}
-                />
-                <div className={styles.name}>K.S. Flow Wrocław</div>
-                <div className={styles.achievements}>
-                    <InfoBlock
-                        label={
-                            "Poland Mixed National Champions  \n (2021, 2019, 2018)"
-                        }
-                    />
-                    <InfoBlock
-                        label={
-                            "Poland Beach National Champions \n (2021, 2015)"
-                        }
-                    />
-                    <InfoBlock label={"4th team in Europe \n (2021)"} />
+        <main className={styles.main}>
+            <img src={"/team_white.jpg"} alt="Logo 2" className={styles.team} />
+            <div className={styles.view}>
+                <div className={styles.content}>
+                    <div className={styles.name}>K.S. Flow Wrocław</div>
+                    <div className={styles.achievements}>
+                        <InfoBlock
+                            label={
+                                "Poland Mixed National Champions  \n (2021, 2019, 2018)"
+                            }
+                        />
+                        <InfoBlock
+                            label={
+                                "Poland Beach National Champions \n (2021, 2015)"
+                            }
+                        />
+                        <InfoBlock label={"4th team in Europe \n (2021)"} />
+                    </div>
                 </div>
+                <News />
+                <Schedule />
+                <Video />
             </div>
-            <News />
-            <Schedule />
-            <Video />
         </main>
     );
 }

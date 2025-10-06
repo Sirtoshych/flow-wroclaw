@@ -13,7 +13,7 @@ export const News = () => {
                             height={"100%"}
                             className={styles.iframe}
                             style={{ border: "none" }}
-                            width={"100%"}
+                            width={"600px"}
                             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                         ></iframe>
                     </div>
@@ -24,7 +24,7 @@ export const News = () => {
                             className={styles.iframe}
                             scrolling="auto"
                             style={{ border: "none" }}
-                            width={"100%"}
+                            width={"400px"}
                             height={"100%"}
                             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                         ></iframe>
@@ -35,7 +35,7 @@ export const News = () => {
                             className={styles.iframe}
                             style={{ border: "none" }}
                             scrolling="auto"
-                            width={"100%"}
+                            width={"600px"}
                             height={"100%"}
                             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                         ></iframe>

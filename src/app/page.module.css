@@ -33,6 +33,13 @@
   }
 
 }
+
+.view{
+  align-self: center;
+  /* max-width: 1300px; */
+  
+  background-color: white;
+}
 .achievements{
   display: flex;
   flex-direction: row;
@@ -44,4 +51,8 @@
   @media (max-width: 767px) {
     bottom: 16px;
   }
+}
+
+.main{
+  /* background-color: rgba(32,71,148); */
 }

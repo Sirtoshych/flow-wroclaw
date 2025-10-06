@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: 'https://flow-wroclaw.vercel.app/',
+  assetPrefix: isProd ? 'https://flow-wroclaw.vercel.app/' : '',
   output: 'export',
   // distDir: '_next',
 };
