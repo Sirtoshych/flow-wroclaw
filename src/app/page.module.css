@@ -17,50 +17,61 @@
 }
 .name{
   position: absolute;
-  bottom: 150px;
+  bottom: 190px;
   width: 100%;
   color: white;
   text-align: center;
-  font-size: 148px;
+  font-size: 9rem;
   font-weight: 700;
+  max-width: 60vw;
+  
 
-  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-/* text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  align-self: center;
+  /* line-height: 1; */
+  text-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+
   @media (max-width: 767px) {
-    font-size: 64px;
-    bottom: 140px;
+    font-size: 52px;
+    bottom: 0;
+    max-width: 90vw;
   }
 
 }
 
 .view{
-  position:absolute;
-  top: 700px;
+  /* position:absolute; */
+  margin-top: 70vh;
   align-self: center;
-  max-width: 1300px;
-  
+  max-width: 60vw;
+  min-width: 1200px;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  
+  @media (max-width: 767px) {
+    max-width: 90vw;
+    min-width: 0;
+    /* top: 50vh; */
+  }
 }
 .achievements{
   display: flex;
   flex-direction: row;
   gap: 16px;
-  width: calc(100% - 64px);
+  width: 100%;
   justify-content: center;
   position: absolute;
   bottom: 16px;
-  padding: 0 32px;
-  background-color: rgba(32,71,148, 0.5);
+  
   border-radius: 16px;
   @media (max-width: 767px) {
     bottom: 16px;
+    flex-direction: column;
+    display: none;
   }
   
 }
 
 .main{
-  /* background-color: rgba(32,71,148); */
+  height: fit-content;
+  background-size: 100% auto;
 }

@@ -3,9 +3,6 @@
     max-width: 100%;
     
     border-radius: 16px;
-    @media (max-width: 767px) {
-        margin-top: 230px;
-  }
 }
 .trainings{
     font-size: 72px;
@@ -15,7 +12,12 @@
     position: absolute;
     left: 32px;
     top: 16px;
-    color: white
+    color: white;
+
+    @media (max-width: 767px) {
+        font-size: 32px;
+        
+    }
 }
 .content{
     position: relative;
@@ -41,13 +43,16 @@
         width: 100%;
     }
     &-item{
-        padding: 16px;
+        padding: 16px 32px;
         border-radius: 16px;
         background-color: white;
         flex: 1;
         h1{
             margin: 0;
             font-size: 52px;
+            @media (max-width: 767px) {        
+                 font-size: 24px;
+            }
         }
 
         &-description{

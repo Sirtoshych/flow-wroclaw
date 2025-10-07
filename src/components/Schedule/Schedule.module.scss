@@ -27,4 +27,9 @@
     margin: 0;
     font-weight: 600;   
     text-transform: uppercase;
+
+    
+    @media (max-width: 767px) {
+        font-size: 32px;
+  }
 }

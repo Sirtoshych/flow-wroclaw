@@ -16,8 +16,11 @@
 
     
     [class*="container"]{
-      max-width: 1300px;
+      max-width: 60vw;
       margin-left: auto;
+      @media (max-width: 767px) {
+        margin-left: 0;
+      }
     }
     @media (max-width: 767px) {
       margin-top: 12px;
