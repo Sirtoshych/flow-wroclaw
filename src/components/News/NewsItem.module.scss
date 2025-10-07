@@ -1,8 +1,8 @@
 .wrapper{
     position: relative;
+    cursor: pointer;
 }
 .side{
-    height: 50%;
     overflow: hidden;
 }
 .content{
@@ -31,7 +31,9 @@
     }
 }
 .photo{
-    // max-width: 700px;
+    &:hover{    
+       scale: 1.005;
+    }
     width: 100%;
     border-radius: 8px;
 }

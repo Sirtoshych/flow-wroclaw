@@ -1,3 +1,4 @@
+"use client";
 import { FC } from "react";
 import styles from "./NewsItem.module.scss";
 
@@ -6,17 +7,21 @@ type NewsItemProps = {
     title: string;
     description: string;
     href: string;
-    type: "main" | "side";
 };
 
 export const NewsItem: FC<NewsItemProps> = ({
     imgSrc,
     title,
     description,
-    type = "main",
+    href,
 }: NewsItemProps) => {
     return (
-        <div className={`${styles.wrapper} ${styles[type]}`}>
+        <div
+            className={`${styles.wrapper}`}
+            onClick={() => {
+                window.open(href, "_blank");
+            }}
+        >
             <img src={imgSrc} alt="News item" className={styles.photo} />
             <div className={styles.content}>
                 <span>{description}</span>
