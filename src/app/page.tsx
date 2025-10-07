@@ -10,7 +10,7 @@ import Sponsors from "./sponsors/page";
 import Training from "./training/page";
 import Contact from "./contact/page";
 
-import grass from "../../public/grass.png";
+// import grass from "../../public/grass.png";
 import team from "../../public/bg.jpg";
 
 export default function Home() {
