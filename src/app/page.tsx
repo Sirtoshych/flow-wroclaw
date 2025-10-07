@@ -11,15 +11,11 @@ import Training from "./training/page";
 import Contact from "./contact/page";
 
 // import grass from "../../public/grass.png";
-import team from "../../public/bg.jpg";
+// import team from "../../public/bg.jpg";
 
 export default function Home() {
     return (
-        <main
-            className={styles.main}
-            style={{ backgroundImage: `url(${team.src})` }}
-        >
-            {/* <img src={"/bg.jpg"} alt="Background 1" className={styles.team} /> */}
+        <main className={styles.main}>
             <div className={styles.view}>
                 <div className={styles.content}>
                     <div className={styles.name}>K.S. Flow Wrocław</div>
