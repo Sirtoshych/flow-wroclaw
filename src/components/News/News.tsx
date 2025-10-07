@@ -1,45 +1,33 @@
 import styles from "./News.module.scss";
+import { NewsItem } from "./NewsItem";
 
 export const News = () => {
     return (
         <div className={styles.news} id="news">
             <div className={styles["news-wrapper"]}>
                 <h1 className={styles["news-title"]}>News</h1>
-                <div className={styles["news-list"]}>
-                    <div className={styles["news-item"]}>
-                        <iframe
-                            id="1"
-                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fflow.ultimate.wroclaw%2Fposts%2Fpfbid036vDrSBpF1Lw3r5uk9a7xcofKyyJrtqHeYeJG6QdCuUxWw3Qkzhroi396tkf1HDKzl&show_text=true"
-                            height={"100%"}
-                            className={styles.iframe}
-                            style={{ border: "none" }}
-                            width={"600px"}
-                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                        ></iframe>
-                    </div>
-
-                    <div className={styles["news-item"]}>
-                        <iframe
-                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fflow.ultimate.wroclaw%2Fposts%2Fpfbid0gcebUozPpBPHg3F7M9sWu9uTj3qLw8HtP4r7X4tzooUN9hQNPH1ZY61nqpUZ8p9wl&show_text=true"
-                            className={styles.iframe}
-                            scrolling="auto"
-                            style={{ border: "none" }}
-                            width={"400px"}
-                            height={"100%"}
-                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                        ></iframe>
-                    </div>
-                    <div className={styles["news-item"]}>
-                        <iframe
-                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fflow.ultimate.wroclaw%2Fposts%2Fpfbid02CFQ24Q1UVXJKDXYnZYcDXGZrBGXPiKCpxBtxdwhZ1oFyTbfh7qFLG3vdmFYBPQiHl&show_text=true"
-                            className={styles.iframe}
-                            style={{ border: "none" }}
-                            scrolling="auto"
-                            width={"600px"}
-                            height={"100%"}
-                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                        ></iframe>
-                    </div>
+                <div className={styles["news-content"]}>
+                    <NewsItem
+                        imgSrc="/MPX_2025.jpg"
+                        title="22.09.2025"
+                        description="Season finished with 5th place at the Polish National Championship!"
+                        href="https://www.instagram.com/p/DOwK4IhCPAU/"
+                        type="main"
+                    />
+                    <NewsItem
+                        imgSrc="/MPX_2025_roster.png"
+                        title="11.09.2025"
+                        description="Our team and first day schedule for Polish National Championship (Mixed)! Tournament on our home turf "
+                        href="https://www.instagram.com/p/DOd1Q5rCHvn/?img_index=1"
+                        type="side"
+                    />
+                    <NewsItem
+                        imgSrc="/PMP_2025.jpg"
+                        title="07.09.2025"
+                        description="The beach ultimate season ends for us with medals at the Polish Championships in Dębki! ⛱️"
+                        href="https://www.instagram.com/p/DOTpeUNiCrO/"
+                        type="side"
+                    />
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import styles from "./page.module.scss";
 
 export default function Contact() {
     return (
-        <div className={styles.container} id="#contact">
+        <div className={styles.container} id="contacts">
             <img
                 src={"/team_standing.jpg"}
                 alt="Team standing"

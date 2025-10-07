@@ -50,7 +50,7 @@ export const Schedule = () => {
                         name="Open Training"
                         location={
                             <a href="https://maps.app.goo.gl/MfypQKG9EWcMtmHZ8">
-                                Pola Marsowe, al Ignacego Jana Paderewskiego 35
+                                Pola Marsowe
                             </a>
                         }
                         time="19:00 - 21:00"

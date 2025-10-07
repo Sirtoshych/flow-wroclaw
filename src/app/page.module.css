@@ -50,7 +50,7 @@
   @media (max-width: 767px) {
     max-width: 90vw;
     min-width: 0;
-    /* top: 50vh; */
+    margin-top: 38vh;
   }
 }
 .achievements{
