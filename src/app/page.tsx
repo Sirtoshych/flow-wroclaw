@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 import { InfoBlock } from "@/components/InfoBlock/InfoBlock";
 import { News } from "@/components/News/News";
 import { Schedule } from "@/components/Schedule/Schedule";
-// import { Video } from "@/components/Video/Video";
+import { Video } from "@/components/Video/Video";
 import Sponsors from "./sponsors/page";
 import Training from "./training/page";
 import Contact from "./contact/page";
@@ -40,7 +40,7 @@ export default function Home() {
                 <News />
                 <Schedule />
                 <Training />
-                {/* <Video /> */}
+                <Video />
                 <Sponsors />
                 <Contact />
             </div>
