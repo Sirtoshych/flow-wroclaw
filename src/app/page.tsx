@@ -6,11 +6,15 @@ import { InfoBlock } from "@/components/InfoBlock/InfoBlock";
 import { News } from "@/components/News/News";
 import { Schedule } from "@/components/Schedule/Schedule";
 import { Video } from "@/components/Video/Video";
+import Sponsors from "./sponsors/page";
+import Training from "./training/page";
+import Contact from "./contact/page";
 
 export default function Home() {
     return (
         <main className={styles.main}>
-            <img src={"/team_white.jpg"} alt="Logo 2" className={styles.team} />
+            <img src={"/bg.jpg"} alt="Background 1" className={styles.team} />
+            <img src={"/grass.png"} alt="BG 2" />
             <div className={styles.view}>
                 <div className={styles.content}>
                     <div className={styles.name}>K.S. Flow Wrocław</div>
@@ -30,7 +34,10 @@ export default function Home() {
                 </div>
                 <News />
                 <Schedule />
-                <Video />
+                <Training />
+                {/* <Video /> */}
+                <Sponsors />
+                <Contact />
             </div>
         </main>
     );

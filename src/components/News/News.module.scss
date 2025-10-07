@@ -1,5 +1,7 @@
 .news{
-    padding: 32px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 16px;
     @media (max-width: 767px) {
         padding: 8px;
     }
@@ -14,8 +16,10 @@
 }
 
 .news-title{
-    font-size: 32px;
+    font-size: 72px;
+    margin: 0;
     font-weight: 600;   
+    text-transform: uppercase;
 }
 
 .news-list{

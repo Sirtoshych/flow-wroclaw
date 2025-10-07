@@ -10,7 +10,6 @@
 .team{
   max-width: 100%;
   
-  border-bottom: 12px solid white;
 
   @media (max-width: 767px) {
     margin-top: 230px;
@@ -35,22 +34,31 @@
 }
 
 .view{
+  position:absolute;
+  top: 700px;
   align-self: center;
-  /* max-width: 1300px; */
+  max-width: 1300px;
   
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  
 }
 .achievements{
   display: flex;
   flex-direction: row;
   gap: 16px;
-  width: 100%;
+  width: calc(100% - 64px);
   justify-content: center;
   position: absolute;
-  bottom: 32px;
+  bottom: 16px;
+  padding: 0 32px;
+  background-color: rgba(32,71,148, 0.5);
+  border-radius: 16px;
   @media (max-width: 767px) {
     bottom: 16px;
   }
+  
 }
 
 .main{

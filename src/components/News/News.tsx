@@ -2,9 +2,9 @@ import styles from "./News.module.scss";
 
 export const News = () => {
     return (
-        <div className={styles.news}>
+        <div className={styles.news} id="news">
             <div className={styles["news-wrapper"]}>
-                <span className={styles["news-title"]}>News</span>
+                <h1 className={styles["news-title"]}>News</h1>
                 <div className={styles["news-list"]}>
                     <div className={styles["news-item"]}>
                         <iframe

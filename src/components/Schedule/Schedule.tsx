@@ -39,8 +39,8 @@ export const Schedule = () => {
     }
 
     return (
-        <div className={styles.schedule}>
-            <h1>Upcoming Events</h1>
+        <div className={styles.schedule} id="events">
+            <h1 className={styles["events-title"]}>Upcoming Events</h1>
             <div className={styles.events}>
                 {getNextFourMondaysOrWednesdays().map((el) => (
                     <Event

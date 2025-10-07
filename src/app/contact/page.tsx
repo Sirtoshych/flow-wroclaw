@@ -2,14 +2,16 @@ import styles from "./page.module.scss";
 
 export default function Contact() {
     return (
-        <div className={styles.content}>
+        <div className={styles.content} id="#contact">
             <img
                 src={"/team_standing.jpg"}
                 alt="Team standing"
-                className={styles.training}
+                className={styles.photo}
             />
             <div className={styles.contact}>
-                <h1>Contact us via:</h1>
+                <h1>Contacts </h1>
+            </div>
+            <div className={styles.links}>
                 <span className={styles.email}>
                     Facebook:{" "}
                     <a href=" https://www.facebook.com/flow.ultimate.wroclaw">

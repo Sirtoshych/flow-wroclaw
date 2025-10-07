@@ -2,12 +2,13 @@ import styles from "./page.module.scss";
 
 export default function Sponsors() {
     return (
-        <div className={styles.content}>
+        <div className={styles.content} id="sponsors">
             <img
                 src={"/sponsors.jpg"}
                 alt="Sponsors"
                 className={styles.image}
             />
+            <h1 className={styles.title}>Sponsors</h1>
             <div className={styles.sponsors}>
                 <p className={styles.text}>
                     Join us as a sponsor and be part of our journey! Your

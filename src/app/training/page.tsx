@@ -2,12 +2,13 @@ import styles from "./page.module.scss";
 
 export default function Training() {
     return (
-        <div className={styles.content}>
+        <div className={styles.content} id="trainings">
             <img
                 src={"/training.jpg"}
                 alt="Logo 2"
                 className={styles.training}
             />
+            <h1 className={styles.trainings}>Trainings</h1>
             <div className={styles.location}>
                 <div className={styles["location-item"]}>
                     <div className={styles["location-title"]}>

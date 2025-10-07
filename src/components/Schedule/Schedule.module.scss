@@ -1,5 +1,7 @@
 .schedule{
-    padding: 0 32px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: white;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -19,4 +21,10 @@
     @media (max-width: 767px) {
       flex-direction: column;
     }
+}
+.events-title{
+    font-size: 72px;
+    margin: 0;
+    font-weight: 600;   
+    text-transform: uppercase;
 }

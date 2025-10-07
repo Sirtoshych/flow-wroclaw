@@ -1,7 +1,7 @@
 
-.training   {
+.photo   {
     max-width: 100%;
-    
+    border-radius: 16px;
     // border-bottom: 12px solid white;
     @media (max-width: 767px) {
         margin-top: 230px;
@@ -11,20 +11,32 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    border-radius: 16px;
 }
 
-
-.contact{
+.links{
     position: absolute;
-    right: 50px;
-    bottom: 50px;
-    font-size: 52px;
+    bottom: 32px;
+    right: 32px;
+    
+    display: flex;
+    flex-direction: column;
+     a{
+        color: white;
+    }
+    font-size: 44px;    
     color: white;
     font-weight: 700;
 
-    a{
-        color: white;
-    }
+}
+.contact{
+    position: absolute;
+    left: 32px;
+    top: 16px;
+   
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
     @media (max-width: 767px) {
         padding: 16px;
         font-size: 18px;
@@ -35,13 +47,12 @@
     }
 
     }
-    h1{
+    h1{   
+        font-size: 72px;
         margin:0;
         @media (max-width: 767px) {
-                 font-size: 32px;
+            font-size: 32px;
+        }
     }
-    }
-    display: flex;
-    flex-direction: column;
 
 }

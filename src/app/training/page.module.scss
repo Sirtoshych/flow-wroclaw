@@ -2,12 +2,25 @@
 .training   {
     max-width: 100%;
     
-    border-bottom: 12px solid white;
+    border-radius: 16px;
     @media (max-width: 767px) {
         margin-top: 230px;
   }
 }
+.trainings{
+    font-size: 72px;
+    margin: 0;
+    font-weight: 600;   
+    text-transform: uppercase;
+    position: absolute;
+    left: 32px;
+    top: 16px;
+    color: white
+}
 .content{
+    position: relative;
+    border-radius: 16px;
+    gap: 8px;
     display: flex;
     flex-direction: column;
     padding: 0 0 32px 0;
@@ -15,6 +28,8 @@
 .location{
     display: flex;
     flex-direction: row;
+    gap: 16px;
+    
     @media (max-width: 767px) {        
         flex-direction: column;
     }
@@ -26,8 +41,14 @@
         width: 100%;
     }
     &-item{
+        padding: 16px;
+        border-radius: 16px;
+        background-color: white;
         flex: 1;
-        padding: 0 32px;
+        h1{
+            margin: 0;
+            font-size: 52px;
+        }
 
         &-description{
             display: flex;

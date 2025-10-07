@@ -7,16 +7,17 @@
     flex: 1;
     top: 16px;
     padding: 16px 0;
-    // background-color: rgba(255, 255, 255, 0.5);
+    
     height: 120px;
     background-color: rgba(32,71,148, 0.5);
     
     position: absolute;
     align-items: center;
-    justify-content: space-between;
+
     
-    .navigation{
-      justify-self: flex-end;
+    [class*="container"]{
+      max-width: 1300px;
+      margin-left: auto;
     }
     @media (max-width: 767px) {
       margin-top: 12px;

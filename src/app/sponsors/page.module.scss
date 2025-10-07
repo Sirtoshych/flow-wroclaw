@@ -1,26 +1,42 @@
 
 .image   {
     max-width: 100%;
-    
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     border-bottom: 12px solid white;
     @media (max-width: 767px) {
         margin-top: 230px;
   }
 }
 .content{
+    border-radius: 16px;
+    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 0 0 32px 0;
+    position: relative;
 }
 
 .sponsors{
     font-weight: 700;
-    padding: 52px;
+    padding: 0 32px;
     @media (max-width: 767px) {
-     padding: 16px;
-  }  
+      padding: 16px;
+    }
+    p{
+      margin: 8px;
+    }
 }
-
+.title{
+  font-size: 72px;
+  margin: 0;
+  font-weight: 600;   
+  text-transform: uppercase;
+  position: absolute;
+  left: 32px;
+  top: 16px;
+  color: white
+}
 .text{
     font-size: 36px;
    @media (max-width: 767px) {
