@@ -13,7 +13,6 @@ export const NewsItem: FC<NewsItemProps> = ({
     imgSrc,
     title,
     description,
-    href,
 }: NewsItemProps) => {
     return (
         <div
