@@ -7,7 +7,7 @@ export default function News() {
         <div className={styles.content} id="news">
             <div className={styles.items}>
                 {NEWS.news.map((el) => (
-                    <ExtendedNews {...el} />
+                    <ExtendedNews key={el.title} {...el} />
                 ))}
             </div>
         </div>

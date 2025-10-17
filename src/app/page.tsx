@@ -6,8 +6,6 @@ import { InfoBlock } from "@/components/InfoBlock/InfoBlock";
 import { News } from "@/components/News/News";
 import { Schedule } from "@/components/Schedule/Schedule";
 import { Video } from "@/components/Video/Video";
-import Sponsors from "./sponsors/page";
-import Training from "./training/page";
 import Contact from "./contact/page";
 
 // import grass from "../../public/grass.png";
@@ -35,9 +33,7 @@ export default function Home() {
                 </div>
                 <News />
                 <Schedule />
-                {/* <Training /> */}
                 <Video />
-                {/* <Sponsors /> */}
                 <Contact />
             </div>
         </main>
