@@ -1,0 +1,41 @@
+
+.item{
+  background-color: white;
+  border-radius: 16px;
+  padding: 16px;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 20vw;
+  max-width: 30vw;
+  &-content{
+    font-size: 24px;
+      white-space: pre-wrap;
+      height: 450px;
+      overflow-y: auto;
+  }
+  &-title{
+    width: calc(100% - 32px);
+    font-size: 44px;
+    font-weight: 600;
+    color: white;
+    position:absolute;
+    bottom: 16px;
+    padding: 0 16px;
+    text-align: right;
+    z-index: 2;
+    background-color: rgba(32,71,148, 0.7);
+  }
+  &-photo{
+    width: 100%;
+    border-radius: 8px;
+    &-container{     
+      position: relative;
+    }
+  }
+  &-footer{
+    text-align: right;
+  }
+}

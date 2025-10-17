@@ -1,8 +1,6 @@
 
 .training   {
     max-width: 100%;
-    
-    border-radius: 16px;
 }
 .trainings{
     font-size: 72px;
@@ -22,23 +20,23 @@
 }
 .content{
     position: relative;
-    border-radius: 16px;
     gap: 8px;
     display: flex;
     flex-direction: column;
+    background-color: rgba(32,71,148, 0.1);
 
 }
 .location{
     display: flex;
     flex-direction: row;
     gap: 16px;
+    padding: 16px;
+    align-self: center;
     
+    max-width: 70vw;
     @media (max-width: 767px) {        
         flex-direction: column;
-    }
-    &-title{
-
-    }    
+    }  
   
     &-image{
         width: 100%;
@@ -48,6 +46,7 @@
         border-radius: 16px;
         background-color: white;
         flex: 1;
+        font-size: 24px;
         h1{
             margin: 0;
             font-size: 52px;

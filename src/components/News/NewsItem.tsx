@@ -19,7 +19,7 @@ export const NewsItem: FC<NewsItemProps> = ({
         <div
             className={`${styles.wrapper}`}
             onClick={() => {
-                window.open(href, "_blank");
+                window.open("/news", "_self");
             }}
         >
             <img src={imgSrc} alt="News item" className={styles.photo} />

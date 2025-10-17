@@ -5,10 +5,10 @@ export const Navigation = () => {
     return (
         <div className={styles.container}>
             <Link href={"/"} label={"Home"} />
-            <Link href={"#trainings"} label={"Trainings"} />
-            <Link href={"#news"} label={"News"} />
+            <Link href={"/training"} label={"Trainings"} />
+            <Link href={"/news"} label={"News"} />
             {/* <Link href={"/cooperation"} label={"Cooperation"} /> */}
-            <Link href={"#sponsors"} label={"Sponsors"} />
+            <Link href={"/sponsors"} label={"Sponsors"} />
             <Link href={"#contacts"} label={"Contact"} />
         </div>
     );

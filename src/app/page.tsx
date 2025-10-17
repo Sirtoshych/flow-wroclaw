@@ -35,9 +35,9 @@ export default function Home() {
                 </div>
                 <News />
                 <Schedule />
-                <Training />
+                {/* <Training /> */}
                 <Video />
-                <Sponsors />
+                {/* <Sponsors /> */}
                 <Contact />
             </div>
         </main>

@@ -8,7 +8,7 @@ export default function Training() {
                 alt="Logo 2"
                 className={styles.training}
             />
-            <h1 className={styles.trainings}>Trainings</h1>
+            {/* <h1 className={styles.trainings}>Trainings</h1> */}
             <div className={styles.location}>
                 <div className={styles["location-item"]}>
                     <div className={styles["location-title"]}>

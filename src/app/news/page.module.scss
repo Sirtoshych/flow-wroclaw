@@ -1,0 +1,21 @@
+.content{
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    background-size: 100% auto;
+    background-image: url('/bg.jpg');
+    @media (max-width: 767px) {
+       background-image: url('/grass.png');
+    }
+
+}
+
+.items{
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    display: flex;
+    gap: 16px;
+    max-width: 70vw;
+}
