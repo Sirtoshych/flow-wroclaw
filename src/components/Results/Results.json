@@ -1,0 +1,35 @@
+{
+    "data": [ {"event": "Mistrzostwa Polski Mixed 2025", "matches":  [
+        {
+            "id": 1,
+            "home": {"label": "Flow", "img": "Flow.png", "points": 13},
+            "visitor": {"label": "AKS Zly", "img": "AKS.jpg", "points": 11},
+            "date": "14.09.2025"
+        },
+        {
+            "id": 2,
+            "home": {"label": "Flow", "img": "Flow.png", "points": 13},
+            "visitor": {"label": "AKS Zly", "img": "AKS.jpg", "points": 11},
+            "date": "14.09.2025"
+        },
+        {
+            "id": 3,
+            "home": {"label": "Flow", "img": "Flow.png", "points": 12},
+            "visitor": {"label": "#967", "img": "967.jpg", "points": 15},
+            "date": "13.09.2025"
+        },
+        {
+            "id": 4,
+            "home": {"label": "4hands", "img": "4hands.png", "points": 15},
+            "visitor": {"label": "Flow", "img": "Flow.png", "points": 14},
+            "date": "13.09.2025"
+        },
+        {
+            "id": 5,
+            "home": {"label": "Wrocław Południe", "img": "WP.jpg", "points": 13},
+            "visitor": {"label": "Flow", "img": "Flow.png", "points": 15},
+            "date": "13.09.2025"
+        }
+    ]
+    }]
+}

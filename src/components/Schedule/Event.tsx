@@ -16,8 +16,13 @@ export const Event = ({
     return (
         <div className={styles.event}>
             <div className={styles["event-date"]}>
-                {date} {time}
+                {date} {"\n"} {time}
             </div>
+            <img
+                src="/training_icon.png"
+                alt="training"
+                style={{ width: "64px", height: "64px" }}
+            />
             <div className={styles["event-info"]}>
                 <span className={styles["event-info-title"]}>{name}</span>
                 <span className={styles["event-info-time"]}>{location}</span>

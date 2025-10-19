@@ -2,6 +2,8 @@ import styles from "./Schedule.module.scss";
 
 import { Event } from "./Event";
 
+const DAYS = ["Sun.", "Mon.", "Tues.", "Wed.", "Thur.", "Fri.", "Sat."];
+
 export const Schedule = () => {
     function closestMondayOrWednesday(date = new Date()) {
         const day = date.getDay(); // Sunday=0, Monday=1, ..., Saturday=6
@@ -28,7 +30,7 @@ export const Schedule = () => {
             const nextDate = closestMondayOrWednesday(currentDate);
 
             // Format: "day, month"
-            const formatted = `${nextDate.getDate()}, ${nextDate.toLocaleString("en-US", { month: "long" })}`;
+            const formatted = `${DAYS[nextDate.getDay()]} ${nextDate.getDate()} ${nextDate.toLocaleString("en-US", { month: "long" })}`;
             results.push(formatted);
 
             currentDate = new Date(nextDate);

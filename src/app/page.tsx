@@ -7,6 +7,7 @@ import { News } from "@/components/News/News";
 import { Schedule } from "@/components/Schedule/Schedule";
 import { Video } from "@/components/Video/Video";
 import Contact from "./contact/page";
+import { Results } from "@/components/Results/Results";
 
 // import grass from "../../public/grass.png";
 // import team from "../../public/bg.jpg";
@@ -32,6 +33,7 @@ export default function Home() {
                     </div>
                 </div>
                 <News />
+                <Results />
                 <Schedule />
                 <Video />
                 <Contact />
