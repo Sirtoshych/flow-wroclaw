@@ -17,7 +17,10 @@ export default function Home() {
         <main className={styles.main}>
             <div className={styles.view}>
                 <div className={styles.content}>
-                    <div className={styles.name}>K.S. Flow Wrocław</div>
+                    <div className={styles.name}>FLOW WROCLAW</div>
+                    <div className={styles.description}>
+                        Ultimate Frisbee Team
+                    </div>
                     <div className={styles.achievements}>
                         <InfoBlock
                             label={

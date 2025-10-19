@@ -1,34 +1,84 @@
 {
-    "data": [ {"event": "Mistrzostwa Polski Mixed 2025", "matches":  [
+    "data": [ {"event": "Mistrzostwa Polski Mixed 2025", "short": "MPX2025", "matches":  [
         {
             "id": 1,
             "home": {"label": "Flow", "img": "Flow.png", "points": 13},
             "visitor": {"label": "AKS Zly", "img": "AKS.jpg", "points": 11},
-            "date": "14.09.2025"
+            "date": "14.09.2025",
+            "stage": "5-6th"
         },
         {
             "id": 2,
-            "home": {"label": "Flow", "img": "Flow.png", "points": 13},
-            "visitor": {"label": "AKS Zly", "img": "AKS.jpg", "points": 11},
-            "date": "14.09.2025"
+            "home": {"label": "RJP", "img": "RJP.png", "points": 9},
+            "visitor": {"label": "Flow", "img": "Flow.png", "points": 13},
+            "date": "14.09.2025",
+            "stage": "5-8th"
         },
         {
             "id": 3,
             "home": {"label": "Flow", "img": "Flow.png", "points": 12},
             "visitor": {"label": "#967", "img": "967.jpg", "points": 15},
-            "date": "13.09.2025"
+            "date": "13.09.2025",
+            "stage": "Group B"
         },
         {
             "id": 4,
             "home": {"label": "4hands", "img": "4hands.png", "points": 15},
             "visitor": {"label": "Flow", "img": "Flow.png", "points": 14},
-            "date": "13.09.2025"
+            "date": "13.09.2025",
+            "stage": "Group B"
         },
         {
             "id": 5,
             "home": {"label": "Wrocław Południe", "img": "WP.jpg", "points": 13},
             "visitor": {"label": "Flow", "img": "Flow.png", "points": 15},
-            "date": "13.09.2025"
+            "date": "13.09.2025",
+            "stage": "Group B"
+        }
+    ]
+    },
+        {"event": "X Mistrzostwa Polski w Beach Ultimate 2025", "short": "MPBU2025", "matches":  [
+        {
+            "id": 1,
+            "home": {"label": "Flow", "img": "Flow.png", "points": 12},
+            "visitor": {"label": "Wrocław Południe ", "img": "WP.jpg", "points": 8},
+            "date": "30.08.2025",
+            "stage": "3rd"
+        },
+        {
+            "id": 2,
+            "home": {"label": "AKS Zły 1", "img": "AKS.jpg", "points": 13},
+            "visitor": {"label": "Flow", "img": "Flow.png", "points": 4},
+            "date": "30.08.2025",
+            "stage": "Semifinal"
+        },
+        {
+            "id": 3,
+            "home": {"label": "Grandmaster Flash", "points": 9},
+            "visitor": {"label": "FLOW", "img": "Flow.png", "points": 11},
+            "date": "29.08.2025",
+            "stage": "Quarterfinal"
+        },
+        {
+            "id": 4,
+            "home": {"label": "Flow", "img": "Flow.png", "points": 13},
+            "visitor": {"label": "Ultimatum", "img": "Ultimatum.jpg", "points": 7},
+            "date": "29.08.2025",
+            "stage": "Group D"
+        },
+        {
+            "id": 5,
+            "home": {"label": "RJP Burza", "img": "RJP.png", "points": 11},
+            "visitor": {"label": "Flow", "img": "Flow.png", "points": 13},
+            "date": "29.08.2025",
+            "stage": "Group D"
+        },
+          {
+            "id": 6,
+            "home": {"label": "042", "img": "042.jpg", "points": 7},
+            "visitor": {"label": "Flow", "img": "Flow.png", "points": 13},
+            "date": "29.08.2025",
+            "stage": "Group D"
         }
     ]
     }]
