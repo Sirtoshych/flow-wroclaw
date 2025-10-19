@@ -22,7 +22,7 @@
   width: 100%;
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
-  font-size: 3rem;
+  font-size: 48px;
   @media (max-width: 767px) {
   display: none;
   }
@@ -33,7 +33,7 @@
   width: 100%;
   color: white;
   text-align: center;
-  font-size: 9rem;
+  font-size: 144px;
   font-weight: 700;
   width: 100%;
 
