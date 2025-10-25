@@ -17,10 +17,13 @@ export default function Home() {
         <main className={styles.main}>
             <div className={styles.view}>
                 <div className={styles.content}>
-                    <div className={styles.name}>FLOW WROCLAW</div>
-                    <div className={styles.description}>
-                        Ultimate Frisbee Team
+                    <div className={styles.info}>
+                        <div className={styles.name}>FLOW WROCLAW</div>
+                        <div className={styles.description}>
+                            Ultimate Frisbee Team
+                        </div>
                     </div>
+
                     <div className={styles.achievements}>
                         <InfoBlock
                             label={

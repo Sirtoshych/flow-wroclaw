@@ -2,6 +2,49 @@
 .training   {
     max-width: 100%;
 }
+.photos{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+.photo{
+    border-radius: 12px;
+    flex: 1;
+    max-width: calc(25% - 8px);
+    @media (max-width: 767px) {
+        max-width: 100%;
+    }
+}
+.title{
+    margin-top: 12px;
+    font-size: 52px;
+    margin: 0;
+    font-weight: 700;
+    @media (max-width: 767px) {
+        font-size: 32px;
+    }
+}
+.description{
+    max-width: 50%;
+    ul{
+        padding-left: 20px;
+    }
+    @media (max-width: 767px) {
+        max-width: 100%;
+    }
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+}
 .trainings{
     font-size: 72px;
     margin: 0;
@@ -18,15 +61,38 @@
     }
     
 }
+.locations{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 .content{
+    
     position: relative;
     gap: 8px;
     display: flex;
     flex-direction: column;
+    background-image: url('/bg.jpg');
     background-color: rgba(32,71,148, 0.1);
 
+    background-size: 100% auto;
+    @media (max-width: 767px) {
+        background-image: url('/grass.png');
+    }
+}
+.info{
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+
+    flex-direction: column;
+    @media (max-width: 767px) {        
+        flex-direction: column-reverse;
+    }  
 }
 .location{
+    margin-top: 200px;
     display: flex;
     flex-direction: row;
     gap: 16px;
@@ -36,13 +102,14 @@
     max-width: 70vw;
     @media (max-width: 767px) {        
         flex-direction: column;
+        max-width: 90vw;
+        margin-top: 220px;
     }  
   
     &-image{
         width: 100%;
     }
     &-item{
-        padding: 16px 32px;
         border-radius: 16px;
         background-color: white;
         flex: 1;
@@ -51,7 +118,7 @@
             margin: 0;
             font-size: 52px;
             @media (max-width: 767px) {        
-                 font-size: 24px;
+                 font-size: 32px;
             }
         }
 
@@ -60,11 +127,19 @@
             flex-direction: column;
             gap: 4px;
         }
+       
+    }
+    h4{ margin: 0; font-weight: 500;
         @media (max-width: 767px) {        
-            padding: 16px;
+            font-size: 16px;
         }
     }
-    h4{ margin: 0; font-weight: 500;}
-    h3{ margin: 0; font-weight: 500;}
+    h3{ margin: 0; font-weight: 500;
+        font-size: 20px;
+        @media (max-width: 767px) {        
+            font-size: 16px;
+        }
+    }
     h2{ margin: 0; font-weight: 500;}
+
 }
