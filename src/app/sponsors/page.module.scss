@@ -1,8 +1,15 @@
 
 .image   {
+    
     max-width: 100%;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
+    
+    @media (max-width: 767px) {
+      padding: 12px;
+      margin-top: 220px;
+      border-radius: 12px;
+    }
 }
 .content{
     border-radius: 16px;
@@ -10,6 +17,11 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    @media (max-width: 767px) {
+      background-image: url('/grass.png');
+      min-height: 90vh;      
+      border-radius: 0px;
+    }
 }
 
 .sponsors{
@@ -17,7 +29,10 @@
     align-self: center;
     padding: 32px;
     @media (max-width: 767px) {
-      padding: 16px;
+      padding: 8px;
+      border-radius: 8px;
+      background-color: white;
+      max-width: 90vw;
     }
     p{
       margin: 8px;

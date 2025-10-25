@@ -16,5 +16,8 @@
             min-height: 400px;
         }
     }
+    @media (max-width: 767px) {
+        padding: 8px;
+    }
 }
 

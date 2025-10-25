@@ -11,7 +11,7 @@ export default function Training() {
             {/* <h1 className={styles.trainings}>Trainings</h1> */}
             <div className={styles.location}>
                 <div className={styles.info}>
-                    <div className={styles.photos}>
+                    {/* <div className={styles.photos}>
                         <img
                             src={"/training/1.jpg"}
                             alt="training1"
@@ -32,9 +32,14 @@ export default function Training() {
                             alt="training3"
                             className={styles.photo}
                         />
-                    </div>
+                    </div> */}
                     <div className={styles.text}>
                         <div className={styles.description}>
+                            <img
+                                src={"/training/1.jpg"}
+                                alt="training1"
+                                className={styles.photo}
+                            />
                             <h1 className={styles.title}>What to Expect</h1>
                             <ul>
                                 <li>
@@ -60,7 +65,12 @@ export default function Training() {
                             </ul>
                         </div>
                         <div className={styles.description}>
-                            <div className={styles.title}>What to Bring</div>
+                            <img
+                                src={"/training/4.jpg"}
+                                alt="training1"
+                                className={styles.photo}
+                            />
+                            <h1 className={styles.title}>What to Bring</h1>
                             <ul>
                                 <li>
                                     <b>Comfortable Sports Clothes:</b> Dress for
@@ -129,7 +139,7 @@ export default function Training() {
                                             Łąkach 8,
                                         </a>
                                     </h3>
-                                    <h3>Monday, Wednesday, 19:00 - 21:00</h3>
+                                    <h3>Monday, Wednesday, 20:00 - 22:00</h3>
                                     <img
                                         src={"/olwaka.png"}
                                         alt="Pola Marsowe"

@@ -48,10 +48,14 @@
   align-items: center;
  
   gap: 8px;
+  @media (max-width: 767px) {
+    height: 140px;   
+  }
 }
 .footer  [class*="container"]{
   margin-left: 0;
   font-size: 24px;
+  
 }
 
 .social{
