@@ -13,6 +13,9 @@ export default function Players() {
                         lastname="Milanowicz"
                         number={32}
                         imgsrc={"Milanowicz1.jpg"}
+                        appearences={177}
+                        assists={466}
+                        goals={285}
                     />
                 </div>
                 <h2>Spirit Captain</h2>
@@ -22,6 +25,9 @@ export default function Players() {
                         lastname="Anufreiv"
                         number={14}
                         imgsrc={"Anufriev.jpg"}
+                        appearences={182}
+                        assists={137}
+                        goals={160}
                     />
                 </div>
                 <h2>Players</h2>
@@ -29,11 +35,9 @@ export default function Players() {
                     {PLAYERS.sort((a, b) => (a.number > b.number ? 1 : -1)).map(
                         (el) => (
                             <Player
-                                key={el.last_name}
-                                name={el.name}
+                                key={`${el.last_name} ${el.name}`}
                                 lastname={el.last_name}
-                                number={el.number}
-                                imgsrc={el.imgsrc}
+                                {...el}
                             />
                         ),
                     )}
