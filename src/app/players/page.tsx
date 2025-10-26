@@ -29,6 +29,7 @@ export default function Players() {
                     {PLAYERS.sort((a, b) => (a.number > b.number ? 1 : -1)).map(
                         (el) => (
                             <Player
+                                key={el.last_name}
                                 name={el.name}
                                 lastname={el.last_name}
                                 number={el.number}
