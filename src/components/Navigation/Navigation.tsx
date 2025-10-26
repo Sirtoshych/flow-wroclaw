@@ -7,7 +7,7 @@ export const Navigation = () => {
             <Link href={"/"} label={"Home"} />
             <Link href={"/training"} label={"Trainings"} />
             <Link href={"/news"} label={"News"} />
-            {/* <Link href={"/cooperation"} label={"Cooperation"} /> */}
+            <Link href={"/players"} label={"Players"} />
             <Link href={"/sponsors"} label={"Sponsors"} />
             <Link href={"/#contacts"} label={"Contact"} />
         </div>

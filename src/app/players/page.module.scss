@@ -1,0 +1,40 @@
+.content{
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    background-size: 100% auto;
+    background-image: url('/bg.jpg');
+    @media (max-width: 767px) {
+       background-image: url('/grass.png');
+    }
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    border-radius: 16px;
+    width: 70vw;
+    height: fit-content;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 8px;
+    h1{
+        margin: 0;
+        text-transform: uppercase;
+    }
+    h2{
+        margin: 0;
+        text-transform: uppercase;
+    }
+    margin-bottom: 16px;
+    @media (max-width: 767px) {
+        width: 80vw;       
+        margin-top: 230px;
+    }
+}
+.players{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
