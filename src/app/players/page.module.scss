@@ -38,3 +38,15 @@
     flex-wrap: wrap;
     gap: 8px;
 }
+.captains{
+    display: flex;
+    gap: 8px;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+.captain{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
