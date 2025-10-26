@@ -18,7 +18,7 @@ export default function Home() {
             <div className={styles.view}>
                 <div className={styles.content}>
                     <div className={styles.info}>
-                        <div className={styles.name}>FLOW WROCLAW</div>
+                        <div className={styles.name}>Flow Wrocław </div>
                         <div className={styles.description}>
                             Ultimate Frisbee Team
                         </div>
