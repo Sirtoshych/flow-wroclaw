@@ -25,8 +25,8 @@ export default function Players() {
                         <h2>Spirit Captain</h2>
                         <div className={styles.players}>
                             <Player
-                                name="Sergey"
-                                lastname="Anufreiv"
+                                name="Sergii"
+                                lastname="Anufriiev"
                                 number={14}
                                 imgsrc={"Anufriev.jpg"}
                                 appearences={182}
