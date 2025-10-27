@@ -17,7 +17,7 @@ export default function Players() {
                                 imgsrc={"Milanowicz1.jpg"}
                                 appearences={177}
                                 assists={466}
-                                goals={285}
+                                points={285}
                             />
                         </div>
                     </div>
@@ -31,7 +31,7 @@ export default function Players() {
                                 imgsrc={"Anufriev.jpg"}
                                 appearences={182}
                                 assists={137}
-                                goals={160}
+                                points={160}
                             />
                         </div>
                     </div>

@@ -6,7 +6,7 @@ type PlayerProps = {
     number: number;
     appearences: number;
     assists: number;
-    goals: number;
+    points: number;
     imgsrc?: string;
 };
 export const Player = ({
@@ -15,7 +15,7 @@ export const Player = ({
     number,
     imgsrc,
     assists,
-    goals,
+    points,
     appearences,
 }: PlayerProps) => {
     return (
@@ -40,7 +40,7 @@ export const Player = ({
                         Appearences: {appearences}
                     </div>
                     <div className={styles.assists}>Assists: {assists}</div>
-                    <div className={styles.goals}>Goals: {goals}</div>
+                    <div className={styles.goals}>Points: {points}</div>
                 </div>
             </div>
         </div>
