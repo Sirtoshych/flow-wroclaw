@@ -89,7 +89,7 @@
     gap: 16px;
 }
 .content{
-    
+    margin-top: -152px;
     position: relative;
     gap: 8px;
     display: flex;
@@ -99,6 +99,7 @@
 
     background-size: 100% auto;
     @media (max-width: 767px) {
+        margin-top: 0;
         background-image: url('/grass.png');
     }
 }

@@ -1,4 +1,6 @@
 .content{
+    
+    margin-top: -152px;
     position: relative;
     display: flex;
     min-height: 100vh;
@@ -6,6 +8,8 @@
     background-image: url('/bg.jpg');
     @media (max-width: 767px) {
        background-image: url('/grass.png');
+       
+        margin-top: 0;
     }
 
 }
